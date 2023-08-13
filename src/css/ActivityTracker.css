@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+/* ActivityTracker.css */
+.activity-tracker {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin: 20px;
+  }
+  
+  .activity-tracker h2 {
+    margin-top: 0;
+  }
+  
+  .activity-tracker p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .activity-tracker progress {
+    width: 100%;
+    height: 20px;
+  }
+  
+  .activity-tracker button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .activity-tracker button:hover {
+    background-color: #0056b3;
+  }
+  

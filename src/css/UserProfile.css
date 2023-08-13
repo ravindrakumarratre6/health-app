@@ -1,0 +1,68 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+/* UserProfile.css */
+.user-profile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    width: 300px;
+  }
+  
+  .user-profile h2 {
+    margin-top: 0;
+  }
+  
+  .user-profile label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .user-profile input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-profile button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-profile button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-profile h3 {
+    margin-top: 20px;
+  }
+  
+  .user-profile-status {
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9f7ef;
+    border: 1px solid #d7fdee;
+    border-radius: 4px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+  }
+  .user-profile-status h3{
+    color:rgb(8, 142, 8);
+  }
+  .user-profile-status p{
+    color:rgb(6, 111, 115);
+  }

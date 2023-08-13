@@ -1,0 +1,52 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+/* Meditation.css */
+.meditation {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin: 20px;
+  }
+  
+  .meditation h2 {
+    margin-top: 0;
+  }
+  
+  .meditation-content {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .meditation p {
+    line-height: 1.5;
+  }
+  
+  .meditation-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .meditation-navigation button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .meditation-navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .meditation-navigation button:hover {
+    background-color: #0056b3;
+  }
+  

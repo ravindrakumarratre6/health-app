@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Dashboard.css */
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .dashboard h1 {
+    text-align: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .tabs button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the active tab */
+  .tabs button.active {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for content */
+  .content {
+    margin-top: 20px;
+  }
+  
+  /* You can add more styles as needed */
+  

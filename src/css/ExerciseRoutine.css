@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* ExerciseRoutine.css */
+.exercise-routine {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin: 20px;
+  }
+  
+  .exercise-routine h2 {
+    margin-top: 0;
+  }
+  
+  .exercise-routine select {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .exercise-routine ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .exercise-routine li {
+    margin-bottom: 5px;
+  }
+  
+  .exercise-routine input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .exercise-routine button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .exercise-routine button:hover {
+    background-color: #0056b3;
+  }
+  
+  .exercise-routine input[type="text"], .exercise-routine button {
+    margin-top: 10px;
+  }
+  
